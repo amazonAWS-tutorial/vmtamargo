@@ -1,0 +1,18 @@
+{
+  "ListenerArn": "placeholder",
+  "Conditions": [
+    {
+      "Field": "path-pattern",
+      "Values": [
+        "/vmtamargo/posts-vmtamargo*"
+      ]
+    }
+  ],
+  "Priority": 3,
+  "Actions": [
+    {
+      "Type": "forward",
+      "TargetGroupArn": "placeholder"
+    }
+  ]
+}
